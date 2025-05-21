@@ -1,0 +1,29 @@
+2025-05-22 01:17:30,252 [main] INFO  org.example.Main - Turing on the driver
+2025-05-22 01:19:41,488 [main] INFO  org.example.Main - Turing on the driver
+2025-05-22 01:20:16,767 [main] INFO  org.example.Main - Turing on the driver
+2025-05-22 01:24:05,158 [main] INFO  org.example.Main - Turing on the driver
+2025-05-22 01:24:05,170 [main] INFO  org.example.Driver - Started server at port: 5000
+2025-05-22 01:24:26,416 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 01:24:26,425 [main] INFO  org.example.Driver - Started server at port: 5000
+2025-05-22 01:53:01,931 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 01:53:01,990 [main] INFO  org.example.Network - The local IP: 172.31.112.1
+2025-05-22 01:53:01,991 [main] INFO  org.example.Driver - Started server at port: 5000
+2025-05-22 01:53:01,994 [pool-2-thread-1] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 01:53:01,995 [pool-2-thread-1] INFO  org.example.Network - The subnet value is 172.31.112.
+2025-05-22 01:53:03,001 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.1
+2025-05-22 01:53:04,015 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.2
+2025-05-22 01:53:05,025 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.3
+2025-05-22 01:53:06,040 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.4
+2025-05-22 01:53:07,054 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.5
+2025-05-22 01:53:08,069 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.6
+2025-05-22 01:53:09,083 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.7
+2025-05-22 01:53:10,087 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.8
+2025-05-22 01:53:11,088 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.9
+2025-05-22 01:53:12,101 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.10
+2025-05-22 01:53:13,105 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.11
+2025-05-22 01:53:14,118 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.12
+2025-05-22 01:53:15,133 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.13
+2025-05-22 01:53:16,147 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.14
+2025-05-22 01:53:17,149 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.15
+2025-05-22 01:53:18,162 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.16
+2025-05-22 01:53:19,175 [pool-2-thread-1] INFO  org.example.Driver - No device at: 172.31.112.17
