@@ -19,6 +19,17 @@ public class Network {
         Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
         while (interfaces.hasMoreElements()) {
             NetworkInterface iface = interfaces.nextElement();
+            // Filter out virtual, loopback, down, or non-physical interfaces
+            if (iface.isLoopback() || !iface.isUp() || iface.isVirtual()) {
+                continue;
+            }
+            // Some adapters have names containing "vEthernet", "Virtual", "VMware", "Docker", etc.
+            // You can exclude those by name if needed:
+            String name = iface.getDisplayName().toLowerCase();
+            if (name.contains("virtual") || name.contains("veth") || name.contains("vmware")
+                    || name.contains("docker") || name.contains("hyper-v") || name.contains("wsl")) {
+                continue;
+            }
             Enumeration<InetAddress> addresses = iface.getInetAddresses();
             while (addresses.hasMoreElements()) {
                 InetAddress addr = addresses.nextElement();

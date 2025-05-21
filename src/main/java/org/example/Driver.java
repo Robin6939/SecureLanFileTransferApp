@@ -17,6 +17,11 @@ public class Driver {
     public void start() {
         Device thisDevice = new Device("Robin's PC");
         try(ServerSocket serverSocket = new ServerSocket(serverPort)) {
+            executorService.submit(() -> {
+                while(true) {
+                    connectToClients(serverSocket);
+                }
+            });
             logger.info("Started server at port: {}", serverPort);
         } catch(Exception e) {
             logger.error("Failed to start socket server with error: {}", e.getMessage());
@@ -31,10 +36,15 @@ public class Driver {
         });
     }
 
+    public void connectToClients(ServerSocket serverSocket) {
+        Socket socket = serverSocket.accept();
+        logger.info("Accepted connection to a client at: {}", socket.getInetAddress());
+    }
+
     public void startLookingForSockets() throws SocketException {
         logger.info("Started searching for sockets");
         String subnet = Network.getSubnet();
-        int timeout = 1000;
+        int timeout = 100;
 
         for(int i = 1;i < 255; i++) {
             String host = subnet + i;
