@@ -494,3 +494,51 @@
 2025-05-22 02:46:56,377 [pool-2-thread-2] INFO  org.example.Driver - No device at: 192.168.0.201
 2025-05-22 02:46:56,487 [pool-2-thread-2] INFO  org.example.Driver - No device at: 192.168.0.202
 2025-05-22 02:46:56,598 [pool-2-thread-2] INFO  org.example.Driver - No device at: 192.168.0.203
+2025-05-22 03:17:04,577 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 03:17:04,660 [main] INFO  org.example.Network - The local IP: 192.168.0.4
+2025-05-22 03:17:04,661 [main] INFO  org.example.Driver - Started server at port: 5000
+2025-05-22 03:17:04,663 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:17:06,672 [pool-2-thread-2] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 03:17:06,672 [pool-2-thread-2] INFO  org.example.Network - The subnet value is 192.168.0.
+2025-05-22 03:17:07,231 [pool-2-thread-2] INFO  org.example.Driver - Found device at host: 192.168.0.6
+2025-05-22 03:23:16,671 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 03:23:16,726 [main] INFO  org.example.Network - The local IP: 192.168.0.4
+2025-05-22 03:23:16,727 [main] INFO  org.example.Driver - Started server at port: 5000
+2025-05-22 03:23:16,728 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:23:18,731 [pool-2-thread-2] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 03:23:18,731 [pool-2-thread-2] INFO  org.example.Network - The subnet value is 192.168.0.
+2025-05-22 03:23:19,042 [pool-2-thread-2] INFO  org.example.Driver - Found device at host: 192.168.0.3
+2025-05-22 03:23:19,269 [pool-2-thread-2] INFO  org.example.Driver - Found device at host: 192.168.0.6
+2025-05-22 03:27:02,415 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 03:27:02,471 [main] INFO  org.example.Network - The local IP: 192.168.0.4
+2025-05-22 03:27:02,472 [main] INFO  org.example.Driver - Started server at port: 5001
+2025-05-22 03:27:02,473 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:27:04,483 [pool-2-thread-2] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 03:27:04,483 [pool-2-thread-2] INFO  org.example.Network - The subnet value is 192.168.0.
+2025-05-22 03:27:44,916 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 03:27:44,972 [main] INFO  org.example.Network - The local IP: 192.168.0.4
+2025-05-22 03:27:44,973 [main] INFO  org.example.Driver - Started server at port: 5001
+2025-05-22 03:27:44,975 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:27:46,982 [pool-2-thread-2] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 03:27:46,982 [pool-2-thread-2] INFO  org.example.Network - The subnet value is 192.168.0.
+2025-05-22 03:28:14,756 [pool-2-thread-2] INFO  org.example.Driver - Done looking for open sockets
+2025-05-22 03:29:21,843 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 03:29:21,901 [main] INFO  org.example.Network - The local IP: 192.168.0.4
+2025-05-22 03:29:21,902 [main] INFO  org.example.Driver - Started server at port: 5001
+2025-05-22 03:29:21,903 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:29:23,914 [pool-2-thread-2] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 03:29:23,914 [pool-2-thread-2] INFO  org.example.Network - The subnet value is 192.168.0.
+2025-05-22 03:29:51,635 [pool-2-thread-2] INFO  org.example.Driver - Done looking for open sockets
+2025-05-22 03:33:04,301 [main] INFO  org.example.Main - Turning on the driver
+2025-05-22 03:33:04,358 [main] INFO  org.example.Network - The local IP: 192.168.0.4
+2025-05-22 03:33:04,359 [main] INFO  org.example.Driver - Started server at port: 5001
+2025-05-22 03:33:04,361 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:33:05,639 [pool-2-thread-1] INFO  org.example.Driver - Accepted connection to a client at: /192.168.0.6
+2025-05-22 03:33:05,639 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:33:06,370 [pool-2-thread-2] INFO  org.example.Driver - Started searching for sockets
+2025-05-22 03:33:06,370 [pool-2-thread-2] INFO  org.example.Network - The subnet value is 192.168.0.
+2025-05-22 03:33:06,696 [pool-2-thread-2] INFO  org.example.Driver - Found device at host: 192.168.0.4
+2025-05-22 03:33:06,696 [pool-2-thread-1] INFO  org.example.Driver - Accepted connection to a client at: /192.168.0.4
+2025-05-22 03:33:06,696 [pool-2-thread-1] INFO  org.example.Driver - Server is listening
+2025-05-22 03:33:06,836 [pool-2-thread-2] INFO  org.example.Driver - Found device at host: 192.168.0.6
+2025-05-22 03:33:33,955 [pool-2-thread-2] INFO  org.example.Driver - Done looking for open sockets

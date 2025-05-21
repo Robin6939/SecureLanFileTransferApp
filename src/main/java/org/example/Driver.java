@@ -13,11 +13,13 @@ import java.util.concurrent.Executors;
 public class Driver {
     private static final Logger logger = LogManager.getLogger(Driver.class);
     ExecutorService executorService = Executors.newFixedThreadPool(10);
-    int serverPort = 5000;
+    int serverPort = 5001;
 
     public void start() {
         Device thisDevice = new Device("Robin's PC");
-        try(ServerSocket serverSocket = new ServerSocket(serverPort)) {
+        try {
+            ServerSocket serverSocket = new ServerSocket(serverPort);
+            serverSocket.setReuseAddress(true);
             logger.info("Started server at port: {}", serverPort);
             executorService.submit(() -> {
                 while(true) {
@@ -51,6 +53,8 @@ public class Driver {
 
         for(int i = 1;i < 255; i++) {
             String host = subnet + i;
+            if(host.equals(Network.getLocalIp()))
+                continue;
             InetSocketAddress address = new InetSocketAddress(host, serverPort);
             try(Socket socket = new Socket()){
                 socket.connect(address, timeout);
@@ -59,5 +63,6 @@ public class Driver {
 //                logger.info("No device at: {}", host);
             }
         }
+        logger.info("Done looking for open sockets");
     }
 }
