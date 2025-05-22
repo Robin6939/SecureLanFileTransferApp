@@ -18,7 +18,7 @@ public class Device {
     String deviceName;
     UUID deviceId;
     String ipAddress;
-    public Device(String deviceName) {
+    public Device(String deviceName, String ipAddress) {
         this.deviceName = deviceName;
         this.deviceId = UUID.randomUUID();
         try {
