@@ -11,13 +11,14 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.*;
 import java.util.HashMap;
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Driver {
     private static final Logger logger = LogManager.getLogger(Driver.class);
-    ConcurrentHashMap<Device, Socket> peers = new ConcurrentHashMap<>();
+    public static ConcurrentHashMap<Device, Socket> peers = new ConcurrentHashMap<>();
     ExecutorService executorService = Executors.newFixedThreadPool(10);
     int serverPort = 5001;
 

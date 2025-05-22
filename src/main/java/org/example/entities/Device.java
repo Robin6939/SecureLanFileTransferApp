@@ -15,7 +15,7 @@ import java.util.UUID;
  */
 public class Device {
     private static final Logger logger = LogManager.getLogger(Device.class);
-    String deviceName;
+    public String deviceName;
     UUID deviceId;
     String ipAddress;
     public Device(String deviceName, String ipAddress) {
